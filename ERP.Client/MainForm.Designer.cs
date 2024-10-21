@@ -28,27 +28,27 @@
         /// </summary>
         private void InitializeComponent()
         {
-            Telerik.WinControls.UI.RadTreeNode radTreeNode1 = new Telerik.WinControls.UI.RadTreeNode();
-            Telerik.WinControls.UI.RadTreeNode radTreeNode2 = new Telerik.WinControls.UI.RadTreeNode();
-            Telerik.WinControls.UI.RadTreeNode radTreeNode3 = new Telerik.WinControls.UI.RadTreeNode();
-            Telerik.WinControls.UI.RadTreeNode radTreeNode4 = new Telerik.WinControls.UI.RadTreeNode();
-            Telerik.WinControls.UI.RadTreeNode radTreeNode5 = new Telerik.WinControls.UI.RadTreeNode();
-            Telerik.WinControls.UI.RadTreeNode radTreeNode6 = new Telerik.WinControls.UI.RadTreeNode();
-            Telerik.WinControls.UI.RadTreeNode radTreeNode7 = new Telerik.WinControls.UI.RadTreeNode();
-            Telerik.WinControls.UI.RadTreeNode radTreeNode8 = new Telerik.WinControls.UI.RadTreeNode();
-            Telerik.WinControls.UI.RadTreeNode radTreeNode9 = new Telerik.WinControls.UI.RadTreeNode();
-            Telerik.WinControls.UI.RadTreeNode radTreeNode10 = new Telerik.WinControls.UI.RadTreeNode();
-            Telerik.WinControls.UI.RadTreeNode radTreeNode11 = new Telerik.WinControls.UI.RadTreeNode();
-            Telerik.WinControls.UI.RadTreeNode radTreeNode12 = new Telerik.WinControls.UI.RadTreeNode();
-            Telerik.WinControls.UI.RadTreeNode radTreeNode13 = new Telerik.WinControls.UI.RadTreeNode();
-            Telerik.WinControls.UI.RadTreeNode radTreeNode14 = new Telerik.WinControls.UI.RadTreeNode();
-            Telerik.WinControls.UI.RadTreeNode radTreeNode15 = new Telerik.WinControls.UI.RadTreeNode();
+            Telerik.WinControls.UI.RadTreeNode radTreeNode16 = new Telerik.WinControls.UI.RadTreeNode();
+            Telerik.WinControls.UI.RadTreeNode radTreeNode17 = new Telerik.WinControls.UI.RadTreeNode();
+            Telerik.WinControls.UI.RadTreeNode radTreeNode18 = new Telerik.WinControls.UI.RadTreeNode();
+            Telerik.WinControls.UI.RadTreeNode radTreeNode19 = new Telerik.WinControls.UI.RadTreeNode();
+            Telerik.WinControls.UI.RadTreeNode radTreeNode20 = new Telerik.WinControls.UI.RadTreeNode();
+            Telerik.WinControls.UI.RadTreeNode radTreeNode21 = new Telerik.WinControls.UI.RadTreeNode();
+            Telerik.WinControls.UI.RadTreeNode radTreeNode22 = new Telerik.WinControls.UI.RadTreeNode();
+            Telerik.WinControls.UI.RadTreeNode radTreeNode23 = new Telerik.WinControls.UI.RadTreeNode();
+            Telerik.WinControls.UI.RadTreeNode radTreeNode24 = new Telerik.WinControls.UI.RadTreeNode();
+            Telerik.WinControls.UI.RadTreeNode radTreeNode25 = new Telerik.WinControls.UI.RadTreeNode();
+            Telerik.WinControls.UI.RadTreeNode radTreeNode26 = new Telerik.WinControls.UI.RadTreeNode();
+            Telerik.WinControls.UI.RadTreeNode radTreeNode27 = new Telerik.WinControls.UI.RadTreeNode();
+            Telerik.WinControls.UI.RadTreeNode radTreeNode28 = new Telerik.WinControls.UI.RadTreeNode();
+            Telerik.WinControls.UI.RadTreeNode radTreeNode29 = new Telerik.WinControls.UI.RadTreeNode();
+            Telerik.WinControls.UI.RadTreeNode radTreeNode30 = new Telerik.WinControls.UI.RadTreeNode();
             this.radCollapsiblePanel1 = new Telerik.WinControls.UI.RadCollapsiblePanel();
             this.radTreeView1 = new Telerik.WinControls.UI.RadTreeView();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
-            this.topControl1 = new ERP.Client.TopControl();
             this.radBreadCrumb1 = new Telerik.WinControls.UI.RadBreadCrumb();
             this.radToolbarFormControl1 = new Telerik.WinControls.UI.RadToolbarFormControl();
+            this.topControl1 = new ERP.Client.TopControl();
             ((System.ComponentModel.ISupportInitialize)(this.radCollapsiblePanel1)).BeginInit();
             this.radCollapsiblePanel1.PanelContainer.SuspendLayout();
             this.radCollapsiblePanel1.SuspendLayout();
@@ -64,7 +64,7 @@
             this.radCollapsiblePanel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.radCollapsiblePanel1.ExpandDirection = Telerik.WinControls.UI.RadDirection.Right;
             this.radCollapsiblePanel1.HorizontalHeaderAlignment = Telerik.WinControls.UI.RadHorizontalAlignment.Center;
-            this.radCollapsiblePanel1.Location = new System.Drawing.Point(10, 87);
+            this.radCollapsiblePanel1.Location = new System.Drawing.Point(1016, 87);
             this.radCollapsiblePanel1.Margin = new System.Windows.Forms.Padding(10, 4, 7, 10);
             this.radCollapsiblePanel1.Name = "radCollapsiblePanel1";
             this.radCollapsiblePanel1.OwnerBoundsCache = new System.Drawing.Rectangle(10, 3, 231, 755);
@@ -79,6 +79,7 @@
             ((Telerik.WinControls.UI.RadCollapsiblePanelElement)(this.radCollapsiblePanel1.GetChildAt(0))).ExpandDirection = Telerik.WinControls.UI.RadDirection.Right;
             ((Telerik.WinControls.UI.RadCollapsiblePanelElement)(this.radCollapsiblePanel1.GetChildAt(0))).Padding = new System.Windows.Forms.Padding(0);
             ((Telerik.WinControls.UI.RadCollapsiblePanelElement)(this.radCollapsiblePanel1.GetChildAt(0))).Margin = new System.Windows.Forms.Padding(0);
+            ((Telerik.WinControls.UI.RadCollapsiblePanelElement)(this.radCollapsiblePanel1.GetChildAt(0))).RightToLeft = true;
             // 
             // radTreeView1
             // 
@@ -92,62 +93,62 @@
             this.radTreeView1.LineStyle = Telerik.WinControls.UI.TreeLineStyle.Solid;
             this.radTreeView1.Location = new System.Drawing.Point(0, 0);
             this.radTreeView1.Name = "radTreeView1";
-            radTreeNode1.Expanded = true;
-            radTreeNode1.Name = "salesNode";
-            radTreeNode2.Expanded = true;
-            radTreeNode2.Name = "customersNode";
-            radTreeNode3.Name = "individualsNode";
-            radTreeNode3.Text = "Individuals";
-            radTreeNode4.Name = "storesNode";
-            radTreeNode4.Text = "Stores";
-            radTreeNode2.Nodes.AddRange(new Telerik.WinControls.UI.RadTreeNode[] {
-            radTreeNode3,
-            radTreeNode4});
-            radTreeNode2.Text = "Customers";
-            radTreeNode5.Name = "ordersNode";
-            radTreeNode5.Text = "Orders";
-            radTreeNode1.Nodes.AddRange(new Telerik.WinControls.UI.RadTreeNode[] {
-            radTreeNode2,
-            radTreeNode5});
-            radTreeNode1.Text = "Sales";
-            radTreeNode6.Expanded = true;
-            radTreeNode6.Name = "productionNode";
-            radTreeNode7.Expanded = true;
-            radTreeNode7.Name = "manufactoricngProcessNode";
-            radTreeNode8.Name = "billOfMaterialsNode";
-            radTreeNode8.Text = "Bill of Materials";
-            radTreeNode9.Name = "workOrdersNode";
-            radTreeNode9.Text = "Work Orders";
-            radTreeNode10.Name = "instructionsNode";
-            radTreeNode10.Text = "Instructions";
-            radTreeNode7.Nodes.AddRange(new Telerik.WinControls.UI.RadTreeNode[] {
-            radTreeNode8,
-            radTreeNode9,
-            radTreeNode10});
-            radTreeNode7.Text = "Manufactoring Process";
-            radTreeNode11.Name = "productInventoryNode";
-            radTreeNode11.Text = "Product Inventory";
-            radTreeNode12.Name = "documentationNode";
-            radTreeNode12.Text = "Documentation";
-            radTreeNode6.Nodes.AddRange(new Telerik.WinControls.UI.RadTreeNode[] {
-            radTreeNode7,
-            radTreeNode11,
-            radTreeNode12});
-            radTreeNode6.Text = "Production";
-            radTreeNode13.Expanded = true;
-            radTreeNode13.Name = "vendorsNode";
-            radTreeNode14.Name = "suppliersNode";
-            radTreeNode14.Text = "Suppliers";
-            radTreeNode15.Name = "purchasesNode";
-            radTreeNode15.Text = "Purchases";
-            radTreeNode13.Nodes.AddRange(new Telerik.WinControls.UI.RadTreeNode[] {
-            radTreeNode14,
-            radTreeNode15});
-            radTreeNode13.Text = "Vendors";
+            radTreeNode16.Expanded = true;
+            radTreeNode16.Name = "salesNode";
+            radTreeNode17.Expanded = true;
+            radTreeNode17.Name = "customersNode";
+            radTreeNode18.Name = "individualsNode";
+            radTreeNode18.Text = "Individuals";
+            radTreeNode19.Name = "storesNode";
+            radTreeNode19.Text = "Stores";
+            radTreeNode17.Nodes.AddRange(new Telerik.WinControls.UI.RadTreeNode[] {
+            radTreeNode18,
+            radTreeNode19});
+            radTreeNode17.Text = "Customers";
+            radTreeNode20.Name = "ordersNode";
+            radTreeNode20.Text = "Orders";
+            radTreeNode16.Nodes.AddRange(new Telerik.WinControls.UI.RadTreeNode[] {
+            radTreeNode17,
+            radTreeNode20});
+            radTreeNode16.Text = "Sales";
+            radTreeNode21.Expanded = true;
+            radTreeNode21.Name = "productionNode";
+            radTreeNode22.Expanded = true;
+            radTreeNode22.Name = "manufactoricngProcessNode";
+            radTreeNode23.Name = "billOfMaterialsNode";
+            radTreeNode23.Text = "Bill of Materials";
+            radTreeNode24.Name = "workOrdersNode";
+            radTreeNode24.Text = "Work Orders";
+            radTreeNode25.Name = "instructionsNode";
+            radTreeNode25.Text = "Instructions";
+            radTreeNode22.Nodes.AddRange(new Telerik.WinControls.UI.RadTreeNode[] {
+            radTreeNode23,
+            radTreeNode24,
+            radTreeNode25});
+            radTreeNode22.Text = "Manufactoring Process";
+            radTreeNode26.Name = "productInventoryNode";
+            radTreeNode26.Text = "Product Inventory";
+            radTreeNode27.Name = "documentationNode";
+            radTreeNode27.Text = "Documentation";
+            radTreeNode21.Nodes.AddRange(new Telerik.WinControls.UI.RadTreeNode[] {
+            radTreeNode22,
+            radTreeNode26,
+            radTreeNode27});
+            radTreeNode21.Text = "Production";
+            radTreeNode28.Expanded = true;
+            radTreeNode28.Name = "vendorsNode";
+            radTreeNode29.Name = "suppliersNode";
+            radTreeNode29.Text = "Suppliers";
+            radTreeNode30.Name = "purchasesNode";
+            radTreeNode30.Text = "Purchases";
+            radTreeNode28.Nodes.AddRange(new Telerik.WinControls.UI.RadTreeNode[] {
+            radTreeNode29,
+            radTreeNode30});
+            radTreeNode28.Text = "Vendors";
             this.radTreeView1.Nodes.AddRange(new Telerik.WinControls.UI.RadTreeNode[] {
-            radTreeNode1,
-            radTreeNode6,
-            radTreeNode13});
+            radTreeNode16,
+            radTreeNode21,
+            radTreeNode28});
             this.radTreeView1.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.radTreeView1.Size = new System.Drawing.Size(225, 740);
             this.radTreeView1.SpacingBetweenNodes = -1;
@@ -171,19 +172,10 @@
             this.tableLayoutPanel1.Size = new System.Drawing.Size(1276, 839);
             this.tableLayoutPanel1.TabIndex = 4;
             // 
-            // topControl1
-            // 
-            this.topControl1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.topControl1.Location = new System.Drawing.Point(267, 3);
-            this.topControl1.Margin = new System.Windows.Forms.Padding(0, 3, 3, 3);
-            this.topControl1.Name = "topControl1";
-            this.topControl1.Size = new System.Drawing.Size(1006, 77);
-            this.topControl1.TabIndex = 0;
-            // 
             // radBreadCrumb1
             // 
             this.radBreadCrumb1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.radBreadCrumb1.Location = new System.Drawing.Point(270, 86);
+            this.radBreadCrumb1.Location = new System.Drawing.Point(3, 86);
             this.radBreadCrumb1.Name = "radBreadCrumb1";
             this.radBreadCrumb1.Size = new System.Drawing.Size(1003, 22);
             this.radBreadCrumb1.TabIndex = 2;
@@ -195,8 +187,18 @@
             this.radToolbarFormControl1.Dock = System.Windows.Forms.DockStyle.Top;
             this.radToolbarFormControl1.Location = new System.Drawing.Point(0, 0);
             this.radToolbarFormControl1.Name = "radToolbarFormControl1";
+            this.radToolbarFormControl1.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.radToolbarFormControl1.Size = new System.Drawing.Size(1276, 41);
             this.radToolbarFormControl1.TabIndex = 5;
+            // 
+            // topControl1
+            // 
+            this.topControl1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.topControl1.Location = new System.Drawing.Point(3, 3);
+            this.topControl1.Margin = new System.Windows.Forms.Padding(0, 3, 3, 3);
+            this.topControl1.Name = "topControl1";
+            this.topControl1.Size = new System.Drawing.Size(1006, 77);
+            this.topControl1.TabIndex = 0;
             // 
             // MainForm
             // 
@@ -206,6 +208,8 @@
             this.Controls.Add(this.tableLayoutPanel1);
             this.Controls.Add(this.radToolbarFormControl1);
             this.Name = "MainForm";
+            this.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.RightToLeftLayout = true;
             this.ShowIcon = false;
             this.Text = "RadForm1";
             this.radCollapsiblePanel1.PanelContainer.ResumeLayout(false);
